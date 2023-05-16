@@ -33,7 +33,7 @@ public  void SubmitOrder() throws IOException, InterruptedException{
 
 		productcatalogue.addToCart(ProductName);// iphone
 
-		// AddtoCart Softdyansty2019
+		// AddtoCart 
 		addTocart Addtocart = new addTocart(driver);
 		Boolean match = Addtocart.verifyProductDisply(ProductName);
 		Assert.assertTrue(match);
