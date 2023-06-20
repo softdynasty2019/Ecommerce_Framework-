@@ -67,6 +67,7 @@ public class BeseTest {
  
  @AfterMethod 
  public  void teardown() {
+	 System.out.println("All Test Execution Done successfully");
 	 driver.close();
 	 
 	 
